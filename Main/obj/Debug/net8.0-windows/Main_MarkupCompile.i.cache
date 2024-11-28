@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Alexandr\source\repos\Проект\MainProject\Main\obj\Debug\net8.0-windows\
+C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\
 Main
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Alexandr\source\repos\Проект\MainProject\Main\App.xaml
+C:\Users\Alexandr\source\repos\Проект\Project\Main\App.xaml
 31814365689
-
+1425195123
 13609414831
 2171126445531
 MainWindow.xaml;Pages\EditSteps\EditingSteps.xaml;Pages\PedometerPage\Pedometer.xaml;
 
-False
+True
 
