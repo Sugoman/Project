@@ -1,0 +1,7 @@
+C:\Users\Alexandr\source\repos\Проект\MainProject\Main\obj\Release\net8.0-windows\Main.csproj.AssemblyReference.cache
+C:\Users\Alexandr\source\repos\Проект\MainProject\Main\obj\Release\net8.0-windows\MainWindow.g.cs
+C:\Users\Alexandr\source\repos\Проект\MainProject\Main\obj\Release\net8.0-windows\Pages\EditSteps\EditingSteps.g.cs
+C:\Users\Alexandr\source\repos\Проект\MainProject\Main\obj\Release\net8.0-windows\Pages\PedometerPage\Pedometer.g.cs
+C:\Users\Alexandr\source\repos\Проект\MainProject\Main\obj\Release\net8.0-windows\App.g.cs
+C:\Users\Alexandr\source\repos\Проект\MainProject\Main\obj\Release\net8.0-windows\Main_MarkupCompile.cache
+C:\Users\Alexandr\source\repos\Проект\MainProject\Main\obj\Release\net8.0-windows\Main_MarkupCompile.lref
