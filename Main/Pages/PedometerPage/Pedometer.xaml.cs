@@ -1,9 +1,8 @@
 ﻿using LiveCharts;
 using LiveCharts.Wpf;
 using Main.Pages.EditSteps;
-using System.Diagnostics;
-using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace Main.Pages.PedometerPage
 {
@@ -15,12 +14,12 @@ namespace Main.Pages.PedometerPage
         public MainWindow MainWindow { get; set; }
         public SeriesCollection SeriesCollection { get; set; }
         public string[] Labels { get; set; }
+        public int MaxValue { get; set; }
         public ChartValues<int[]> Values { get; set; }
         public Func<double, string> YFormatter { get; set; }
+        private Dictionary<DateTime, double> _data;
 
         public string filePath = "steps_data.xlsx";
-        private int[] Steps;
-        private DateTime[] Dates;
         EditingSteps editingSteps = new();
 
         public Pedometer()
@@ -29,37 +28,39 @@ namespace Main.Pages.PedometerPage
             var steps = EditingSteps.ReadFirstColumn(filePath);
             var dates = EditingSteps.ReadSecondColumn(filePath);
             var chartValues = new ChartValues<int>(steps);
+
+            var converter = new BrushConverter();
+            var brushFill = (Brush)converter.ConvertFromString("#A0CECB");
+            var brushStroke = (Brush)converter.ConvertFromString("#7DB1B1");
+
             SeriesCollection = new SeriesCollection
             {
                 new LineSeries
-                {                   
-                    // Значение шагов из первого столбца Excel-файла
+                {
+                   Title = "Шагов",
+                   Fill = brushFill,
+                   Stroke = brushStroke,
                    Values = chartValues,
-                   LineSmoothness = 1,
+                   LineSmoothness = 0,
                 }
             };
             Labels = dates;
             YFormatter = value => value.ToString();
-            DataContext = this;           
+            DataContext = this;
         }
 
-        private void UpdateChart(DateTime startDate, DateTime endDate)
-        {    
-            string[] dates = EditingSteps.ReadSecondColumn(filePath);
-            var steps = EditingSteps.ReadFirstColumn(filePath);
-            var chartValues = new ChartValues<int>(steps);
-        }
-
-        private void DatePicker_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
+        private void EndDatePicker_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
         {
-            StepData stepData = new();
-            MessageBox.Show(EndDatePicker.SelectedDate.Value.Date.ToShortDateString());
-            MessageBox.Show(stepData.ID.ToString());
-            PedometerPage.MainViewModel viewModel = new();
-            MessageBox.Show("123" );
-            MessageBox.Show($"DataContext: {this.DataContext?.GetType().Name}");
+            var endDate = (int)EndDatePicker.SelectedDate.Value.ToOADate() - 45432;
+            chart.AxisX[0].MaxValue = endDate;
         }
 
+        private void StartDatePicker_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var startDate = (int)(StartDatePicker.SelectedDate.Value.ToOADate() - 45432);
+            chart.AxisX[0].MinValue = startDate;
+        }
     }
+
 }
 
