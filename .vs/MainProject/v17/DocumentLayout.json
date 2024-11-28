@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\",
+  "WorkspaceRootPath": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainproject\\main\\pages\\pedometerpage\\stepdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\pedometerpage\\stepdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pedometerpage\\stepdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainproject\\main\\pages\\pedometerpage\\pedometer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\pedometerpage\\pedometer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pedometerpage\\pedometer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainproject\\main\\pages\\pedometerpage\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\pedometerpage\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pedometerpage\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainproject\\main\\pages\\pedometerpage\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\pedometerpage\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pedometerpage\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainproject\\main\\pages\\pedometerpage\\pedometer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\pedometerpage\\pedometer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pedometerpage\\pedometer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainproject\\main\\pages\\pedometerpage\\excelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\pedometerpage\\excelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pedometerpage\\excelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,47 +40,44 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Pedometer.xaml",
-              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PedometerPage\\Pedometer.xaml",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\Pedometer.xaml",
               "RelativeDocumentMoniker": "Main\\Pages\\PedometerPage\\Pedometer.xaml",
-              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PedometerPage\\Pedometer.xaml",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\Pedometer.xaml",
               "RelativeToolTip": "Main\\Pages\\PedometerPage\\Pedometer.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T18:06:26.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:06:26.836Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ExcelLoader.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PedometerPage\\ExcelLoader.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\ExcelLoader.cs",
               "RelativeDocumentMoniker": "Main\\Pages\\PedometerPage\\ExcelLoader.cs",
-              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PedometerPage\\ExcelLoader.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\ExcelLoader.cs",
               "RelativeToolTip": "Main\\Pages\\PedometerPage\\ExcelLoader.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:04:55.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:04:55.575Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PedometerPage\\MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\MainViewModel.cs",
               "RelativeDocumentMoniker": "Main\\Pages\\PedometerPage\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PedometerPage\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\MainViewModel.cs",
               "RelativeToolTip": "Main\\Pages\\PedometerPage\\MainViewModel.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T17:55:22.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T17:55:22.93Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StepData.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PedometerPage\\StepData.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\StepData.cs",
               "RelativeDocumentMoniker": "Main\\Pages\\PedometerPage\\StepData.cs",
-              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PedometerPage\\StepData.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\StepData.cs",
               "RelativeToolTip": "Main\\Pages\\PedometerPage\\StepData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,27 +88,25 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "LoadData.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PedometerPage\\LoadData.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\LoadData.cs",
               "RelativeDocumentMoniker": "Main\\Pages\\PedometerPage\\LoadData.cs",
-              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PedometerPage\\LoadData.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\LoadData.cs",
               "RelativeToolTip": "Main\\Pages\\PedometerPage\\LoadData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T17:54:15.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T17:54:15.918Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Pedometer.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PedometerPage\\Pedometer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\Pedometer.xaml.cs",
               "RelativeDocumentMoniker": "Main\\Pages\\PedometerPage\\Pedometer.xaml.cs",
-              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PedometerPage\\Pedometer.xaml.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\Pedometer.xaml.cs",
               "RelativeToolTip": "Main\\Pages\\PedometerPage\\Pedometer.xaml.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAcwCcAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T17:54:12.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T17:54:12.297Z"
             }
           ]
         }
