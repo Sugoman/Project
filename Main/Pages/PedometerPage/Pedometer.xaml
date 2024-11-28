@@ -8,38 +8,29 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Pedometer">
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="5*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <lvc:CartesianChart Series="{Binding SeriesCollection}">
+        <lvc:CartesianChart Series="{Binding SeriesCollection}" x:Name="chart">            
             <lvc:CartesianChart.AxisY>
                 <lvc:Axis Title="Шаги" LabelFormatter="{Binding YFormatter}" MinValue="0"></lvc:Axis>
             </lvc:CartesianChart.AxisY>
             <lvc:CartesianChart.AxisX>
-                <lvc:Axis Title="Дата" Labels="{Binding Labels}"></lvc:Axis>
+                <lvc:Axis Title="Дата" Labels="{Binding Labels}" MaxValue="{Binding }"></lvc:Axis>
             </lvc:CartesianChart.AxisX>
         </lvc:CartesianChart>
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
         <TextBlock Text="Начало" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <DatePicker x:Name="StartDatePicker" Margin="15 2 15 15" VerticalAlignment="Center" SelectedDate="{Binding SelectedStep.Date, Mode=TwoWay}" SelectedDateFormat="Short"/>
+            <DatePicker x:Name="StartDatePicker" Margin="15 2 15 15" VerticalAlignment="Center" SelectedDate="{Binding SelectedStep.Date, Mode=TwoWay}" DisplayDateStart="5/20/2024" DisplayDateEnd="11/26/2024" SelectedDateChanged="StartDatePicker_SelectedDateChanged">
+                
+            </DatePicker>
         <TextBlock Text="Конец" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
-            <DatePicker x:Name="EndDatePicker" Margin="15 2 15 15" VerticalAlignment="Center" SelectedDate="{Binding SelectedStep.Date, Mode=TwoWay}" DisplayDate="5/20/2024" SelectedDateChanged="DatePicker_SelectedDateChanged"/>
-
-            <ListBox ItemsSource="{Binding Steps}" SelectedItem="{Binding SelectedStep}" Margin="10" Width="100">
-                <ListBox.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel Orientation="Vertical">
-                            <TextBlock Text="{Binding ID}" Width="50" />
-                            <TextBlock Text="{Binding Date}" Width="100" />
-                            <TextBlock Text="{Binding Steps}" Width="100" />
-                        </StackPanel>
-                    </DataTemplate>
-                </ListBox.ItemTemplate>
-            </ListBox>
+            <DatePicker x:Name="EndDatePicker" Margin="15 2 15 15" VerticalAlignment="Center" SelectedDate="{Binding SelectedStep.Date, Mode=TwoWay}" DisplayDateStart="5/20/2024" DisplayDateEnd="11/26/2024" SelectedDateChanged="EndDatePicker_SelectedDateChanged"/>
 
         </StackPanel>
     </Grid>
 </Page>
+    
