@@ -73,6 +73,28 @@
           }
         }
       },
+      "MahApps.Metro.IconPacks.Core/5.1.0": {
+        "dependencies": {
+          "System.Text.Json": "8.0.5"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Material/5.1.0": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.1.0"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Material.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
@@ -270,6 +292,14 @@
             "fileVersion": "8.0.23.53103"
           }
         }
+      },
+      "System.Text.Json/8.0.5": {
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
       }
     }
   },
@@ -315,6 +345,20 @@
       "sha512": "sha512-lv6YZoK0B4yWykMq5b9grZXtIbTj+OWu4sVN9GDpdgV6zffu64m4d5CW8KSjfSl9rB8VU649x1NZvhoU67hCDg==",
       "path": "livecharts.wpf/0.9.7",
       "hashPath": "livecharts.wpf.0.9.7.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Core/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DBvN+gsmx5iryZO4VCcrYH1iaV1o5Qwed+IZ4bElvfRqUcNs3+sqA6Y2lPYdzLDDtuEZ681fkWyEzlxe5f1pcQ==",
+      "path": "mahapps.metro.iconpacks.core/5.1.0",
+      "hashPath": "mahapps.metro.iconpacks.core.5.1.0.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Material/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RWh43z0Ddd3jS0ktXpU6Y2DbvaNV8gY8uBVfmOuy7LrRzcLhd0ywUkWQrH1F3m6ODIO1vgMI5vEcKgqXP58s9Q==",
+      "path": "mahapps.metro.iconpacks.material/5.1.0",
+      "hashPath": "mahapps.metro.iconpacks.material.5.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/8.0.0": {
       "type": "package",
@@ -434,6 +478,13 @@
       "sha512": "sha512-OZIsVplFGaVY90G2SbpgU7EnCoOO5pw1t4ic21dBF3/1omrJFpAGoNAVpPyMVOC90/hvgkGG3VFqR13YgZMQfg==",
       "path": "system.text.encoding.codepages/8.0.0",
       "hashPath": "system.text.encoding.codepages.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+      "path": "system.text.json/8.0.5",
+      "hashPath": "system.text.json.8.0.5.nupkg.sha512"
     }
   }
 }

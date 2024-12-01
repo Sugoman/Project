@@ -8,6 +8,7 @@ using LiveCharts.Events;
 using LiveCharts.Wpf;
 using Main.Pages.EditSteps;
 using Main.Pages.PedometerPage;
+using Main.Pages.PressurePage;
 
 namespace Main
 {
@@ -35,8 +36,10 @@ namespace Main
             MainFrame.Navigate(new EditingSteps());
         }
 
-        
-
-
+        private void ChangeMainPageToPressurePageButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Title = ChangeMainPageToPressurePageButton.Content.ToString();
+            MainFrame.Navigate(new Pressure());
+        }
     }
 }

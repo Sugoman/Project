@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\",
+  "WorkspaceRootPath": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\pedometerpage\\pedometer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pedometerpage\\pedometer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,6 +34,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\main.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\main.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+=======
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainproject\\main\\pages\\pressurepage\\pressure.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pressurepage\\pressure.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainproject\\main\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainproject\\main\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainproject\\main\\pages\\pressurepage\\pressure.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pressurepage\\pressure.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -42,6 +59,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -117,11 +135,27 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T17:54:52.822Z",
+=======
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Main\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Main\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:35:20.592Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< Updated upstream
               "Title": "Pedometer.xaml",
               "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\Pedometer.xaml",
               "RelativeDocumentMoniker": "Main\\Pages\\PedometerPage\\Pedometer.xaml",
@@ -129,10 +163,20 @@
               "RelativeToolTip": "Main\\Pages\\PedometerPage\\Pedometer.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-27T18:06:26.836Z",
+=======
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\App.xaml",
+              "RelativeDocumentMoniker": "Main\\App.xaml",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\App.xaml",
+              "RelativeToolTip": "Main\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-01T17:50:19.272Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
               "Title": "LoadData.cs",
               "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\LoadData.cs",
@@ -142,6 +186,29 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T17:54:15.918Z",
+=======
+              "DocumentIndex": 0,
+              "Title": "Pressure.xaml",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PressurePage\\Pressure.xaml",
+              "RelativeDocumentMoniker": "Main\\Pages\\PressurePage\\Pressure.xaml",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PressurePage\\Pressure.xaml",
+              "RelativeToolTip": "Main\\Pages\\PressurePage\\Pressure.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-01T17:53:17.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pressure.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PressurePage\\Pressure.xaml.cs",
+              "RelativeDocumentMoniker": "Main\\Pages\\PressurePage\\Pressure.xaml.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\MainProject\\Main\\Pages\\PressurePage\\Pressure.xaml.cs",
+              "RelativeToolTip": "Main\\Pages\\PressurePage\\Pressure.xaml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwCAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:42:07.836Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             }
           ]
