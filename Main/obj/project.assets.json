@@ -1288,11 +1288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexandr\\source\\repos\\Проект\\MainProject\\Main\\Main.csproj",
+      "projectUniqueName": "C:\\Users\\Alexandr\\source\\repos\\Проект\\Project\\Main\\Main.csproj",
       "projectName": "Main",
-      "projectPath": "C:\\Users\\Alexandr\\source\\repos\\Проект\\MainProject\\Main\\Main.csproj",
+      "projectPath": "C:\\Users\\Alexandr\\source\\repos\\Проект\\Project\\Main\\Main.csproj",
       "packagesPath": "C:\\Users\\Alexandr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexandr\\source\\repos\\Проект\\MainProject\\Main\\obj\\",
+      "outputPath": "C:\\Users\\Alexandr\\source\\repos\\Проект\\Project\\Main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alexandr\\AppData\\Roaming\\NuGet\\NuGet.Config",

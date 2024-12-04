@@ -102,3 +102,9 @@ C:\Users\Alexandr\source\repos\Проект\MainProject\Main\obj\Debug\net8.0-wi
 C:\Users\Alexandr\source\repos\Проект\MainProject\Main\obj\Debug\net8.0-windows\App.baml
 C:\Users\Alexandr\source\repos\Проект\MainProject\Main\obj\Debug\net8.0-windows\Pages\PressurePage\Pressure.baml
 C:\Users\Alexandr\source\repos\Проект\MainProject\Main\obj\Debug\net8.0-windows\Main.sourcelink.json
+C:\Users\Alexandr\source\repos\Проект\Project\Main\bin\Debug\net8.0-windows\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Alexandr\source\repos\Проект\Project\Main\bin\Debug\net8.0-windows\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Alexandr\source\repos\Проект\Project\Main\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\Pages\PressurePage\Pressure.g.cs
+C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\App.baml
+C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\Pages\PressurePage\Pressure.baml
