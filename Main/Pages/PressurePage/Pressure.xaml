@@ -11,8 +11,7 @@
 
     <Page.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
-    </Page.Resources>
-    
+    </Page.Resources>    
     
     <Grid>
         <Grid.RowDefinitions>
@@ -34,7 +33,7 @@
         <TextBlock Text=" Показатели давления и пульса" Grid.Row="1" FontSize="32" FontWeight="SemiBold" Margin="0 20 0 0"
                    HorizontalAlignment="Left" Foreground="#121518"/>
 
-        <Button Style="{StaticResource addButton}" Grid.Row="1">
+        <Button Style="{StaticResource addButton}" Grid.Row="1" x:Name="addDataButton" Click="addDataButton_Click">
             <StackPanel Orientation="Horizontal">
                 <Icon:PackIconMaterial Kind="Plus" VerticalAlignment="Center" Width="11" Height="11" Margin="0 1 8 0"/>
                 <TextBlock Text="Добавить данные"/>

@@ -108,3 +108,5 @@ C:\Users\Alexandr\source\repos\Проект\Project\Main\bin\Debug\net8.0-window
 C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\Pages\PressurePage\Pressure.g.cs
 C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\App.baml
 C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\Pages\PressurePage\Pressure.baml
+C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\Pages\addDateWindow\addDataWindow.g.cs
+C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\Pages\addDateWindow\addDataWindow.baml

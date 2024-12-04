@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\adddatewindow\\adddatawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\adddatewindow\\adddatawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\res\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\res\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\adddatewindow\\adddatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\adddatewindow\\adddatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\pressurepage\\pressure.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pressurepage\\pressure.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\pedometerpage\\pedometer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pedometerpage\\pedometer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\pressurepage\\mydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +39,12 @@
       "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pressurepage\\pressure.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\pedometerpage\\pedometer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pedometerpage\\pedometer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\pages\\pressurepage\\pressure.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\pages\\pressurepage\\pressure.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|c:\\users\\alexandr\\source\\repos\\\u043F\u0440\u043E\u0435\u043A\u0442\\project\\main\\main.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{323952E9-16D8-40DC-8179-F456019EDD4D}|Main\\Main.csproj|solutionrelative:main\\main.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,6 +59,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Res\\Classes.cs",
+              "RelativeDocumentMoniker": "Main\\Res\\Classes.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Res\\Classes.cs",
+              "RelativeToolTip": "Main\\Res\\Classes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:07:47.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddDataWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\addDateWindow\\AddDataWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Main\\Pages\\addDateWindow\\AddDataWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\addDateWindow\\AddDataWindow.xaml.cs",
+              "RelativeToolTip": "Main\\Pages\\addDateWindow\\AddDataWindow.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAMwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:07:12.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddDataWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\addDateWindow\\AddDataWindow.xaml",
+              "RelativeDocumentMoniker": "Main\\Pages\\addDateWindow\\AddDataWindow.xaml",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\addDateWindow\\AddDataWindow.xaml",
+              "RelativeToolTip": "Main\\Pages\\addDateWindow\\AddDataWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T16:07:11.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Main\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\MainWindow.xaml",
+              "RelativeToolTip": "Main\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T16:03:35.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Main\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Main\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:03:24.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Main",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Main.csproj",
+              "RelativeDocumentMoniker": "Main\\Main.csproj",
+              "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Main.csproj",
+              "RelativeToolTip": "Main\\Main.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-04T15:41:21.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MyData.cs",
               "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PressurePage\\MyData.cs",
               "RelativeDocumentMoniker": "Main\\Pages\\PressurePage\\MyData.cs",
@@ -47,20 +147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Pressure.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PressurePage\\Pressure.xaml.cs",
               "RelativeDocumentMoniker": "Main\\Pages\\PressurePage\\Pressure.xaml.cs",
               "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PressurePage\\Pressure.xaml.cs",
               "RelativeToolTip": "Main\\Pages\\PressurePage\\Pressure.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwEoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T14:57:09.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\App.xaml",
               "RelativeDocumentMoniker": "Main\\App.xaml",
@@ -84,13 +184,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Pedometer.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\Pedometer.xaml.cs",
               "RelativeDocumentMoniker": "Main\\Pages\\PedometerPage\\Pedometer.xaml.cs",
               "ToolTip": "C:\\Users\\Alexandr\\source\\repos\\\u041F\u0440\u043E\u0435\u043A\u0442\\Project\\Main\\Pages\\PedometerPage\\Pedometer.xaml.cs",
               "RelativeToolTip": "Main\\Pages\\PedometerPage\\Pedometer.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA4wC8AAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T19:08:30.086Z",
               "EditorCaption": ""

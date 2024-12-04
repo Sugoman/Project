@@ -1,4 +1,6 @@
-﻿using OfficeOpenXml;
+﻿
+using Main.Pages.AddDateWindow;
+using OfficeOpenXml;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
@@ -60,6 +62,17 @@ namespace Main.Pages.PressurePage
             }
 
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void addDataButton_Click(object sender, RoutedEventArgs e)
+        {
+            addDataWindow addDataWindow = new addDataWindow();
+            addDataWindow.Show();
         }
     }
 

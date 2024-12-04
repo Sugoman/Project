@@ -355,7 +355,7 @@
                                      Padding="5"
                                      Background="White"
                                      BorderBrush="LightGray"
-                                     BorderThickness="1"
+                                     BorderThickness="0"
                                      Foreground="Black"
                                      IsReadOnly="True" 
                                      Width="90"/>
@@ -376,7 +376,7 @@
 
                             <!-- Всплывающий календарь -->
                             <Popup x:Name="PART_Popup" Placement="Bottom" StaysOpen="False" IsOpen="{Binding IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}}">
-                                <Border BorderBrush="LightGray" BorderThickness="1" Background="White">
+                                <Border BorderBrush="LightGray" BorderThickness="0" Background="White">
                                     <Calendar x:Name="PART_Calendar" 
                                               SelectedDate="{Binding Path=SelectedDate, RelativeSource={RelativeSource TemplatedParent}}" />
                                 </Border>
@@ -428,6 +428,67 @@
             <Setter Property="Height" Value="12"/>
 
         </Style>
+
+        <Style x:Key="RoundedButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="10" Background="{TemplateBinding Background}" 
+                            BorderThickness="0" Padding="5" Margin="0">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CancelButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="10" Background="{TemplateBinding Background}" BorderThickness="0">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Background" Value="#CCCCCC" />
+            <Setter Property="Foreground" Value="White" />
+            <Style.Triggers>
+                <!-- Триггер для изменения цвета при наведении -->
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#df6161" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="textBoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="#ffffff"/>
+            <Setter Property="Foreground" Value="#b0b9c6"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBoxBase">
+                        <ScrollViewer x:Name="PART_ContentHost" Focusable="False" HorizontalScrollBarVisibility="Hidden"
+                                  VerticalScrollBarVisibility="Hidden"/>
+
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="BorderBrush" Value="#d9d9d9"/>
+                            </Trigger>
+
+                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="#d9d9d9"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
 
     </Application.Resources>
 </Application>

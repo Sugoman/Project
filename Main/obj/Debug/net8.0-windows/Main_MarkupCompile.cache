@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Alexandr\source\repos\Проект\Project\Main\App.xaml
-4-1962182932
+5-98212715
 1425195123
-131416700636
+14-974842295
 2191930658073
-MainWindow.xaml;Pages\EditSteps\EditingSteps.xaml;Pages\PedometerPage\Pedometer.xaml;Pages\PressurePage\Pressure.xaml;
+MainWindow.xaml;Pages\addDateWindow\AddDataWindow.xaml;Pages\EditSteps\EditingSteps.xaml;Pages\PedometerPage\Pedometer.xaml;Pages\PressurePage\Pressure.xaml;
 
 False
 
