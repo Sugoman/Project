@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Pages\addDateWindow\AddDataWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\EditSteps\EditingSteps.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -16,8 +19,14 @@
     <Compile Update="Pages\PressurePage\Pressure.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\SettingsPage\Settings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Pages\addDateWindow\AddDataWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Pages\EditSteps\EditingSteps.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -25,6 +34,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\PressurePage\Pressure.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SettingsPage\Settings.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

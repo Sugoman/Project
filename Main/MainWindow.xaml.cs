@@ -6,9 +6,11 @@ using System.Windows.Navigation;
 using LiveCharts;
 using LiveCharts.Events;
 using LiveCharts.Wpf;
+using Main.Pages.AddDateWindow;
 using Main.Pages.EditSteps;
 using Main.Pages.PedometerPage;
 using Main.Pages.PressurePage;
+using Main.Pages.SettingsPage;
 
 namespace Main
 {
@@ -40,6 +42,24 @@ namespace Main
         {
             this.Title = ChangeMainPageToPressurePageButton.Content.ToString();
             MainFrame.Navigate(new Pressure());
+        }
+
+        private void Window_Closing(object sender, EventArgs e)
+        {
+            addDataWindow add = new addDataWindow();
+            if (add.IsLoaded == true)
+                add.Close();
+          
+        }       
+
+        private void ChangeMainPageToSettingsPageButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Title = ChangeMainPageToPressurePageButton.Content.ToString();
+            MainFrame.Navigate(new Settings());
+        }
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }

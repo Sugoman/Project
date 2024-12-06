@@ -1,0 +1,67 @@
+﻿<Window x:Class="Main.Pages.AddDateWindow.addDataWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:Main.Pages.AddDateWindow"
+        mc:Ignorable="d"
+        Title="Добавить данные" Height="400" Width="290" ResizeMode="NoResize">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+</Window.Resources>
+    <Grid>
+        <!-- Основной фон и скругленные края -->
+        <Border Background="White" CornerRadius="15" Padding="20" BorderBrush="#CCCCCC" BorderThickness="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <TextBlock Margin="30 0 0 -150" VerticalAlignment="Center" Foreground="#b0b9c6" IsHitTestVisible="False"
+           Panel.ZIndex="2" Text="120/70" Visibility="{Binding ElementName=textBoxPressure,Path=Text.IsEmpty,Converter={StaticResource BoolToVis}}"/>
+
+                <TextBlock Margin="30 0 0 -270" VerticalAlignment="Center" Foreground="#b0b9c6" IsHitTestVisible="False"
+Panel.ZIndex="2" Text="60" Visibility="{Binding ElementName=PulseTextBox,Path=Text.IsEmpty,Converter={StaticResource BoolToVis}}"/>
+                <!-- Заголовок -->
+                <TextBlock Text="Добавить данные" FontSize="18" FontWeight="Bold" Foreground="#333333" 
+                       HorizontalAlignment="Center" Margin="0,0,0,20" />
+
+                <!-- Форма -->
+                <StackPanel Grid.Row="1" Margin="15">
+                    <!-- Поле для давления -->
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Давление (мм рт. ст.):" FontSize="14" Foreground="#555555" />
+                        <Border CornerRadius="10" BorderBrush="#AAAAAA" BorderThickness="1">
+                            <TextBox x:Name="textBoxPressure" Height="40" Padding="10" Background="Transparent" BorderThickness="0" Style="{StaticResource textBoxStyle}" Foreground="Black"/>
+                        </Border>
+                    </StackPanel>
+
+                    <!-- Поле для пульса -->
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Пульс (уд./мин):" FontSize="14" Foreground="#555555" />
+                        <Border CornerRadius="10" BorderBrush="#AAAAAA" BorderThickness="1">
+                            <TextBox x:Name="PulseTextBox" Height="40" Padding="10" Background="Transparent" BorderThickness="0" Foreground="Black"/>
+                        </Border>
+                    </StackPanel>
+
+                    <!-- Поле для даты -->
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Дата:" FontSize="14" Foreground="#555555" />
+                        <Border CornerRadius="4" BorderBrush="#AAAAAA" BorderThickness="1">
+                            <DatePicker x:Name="DataDatePicker" Height="40" Padding="10" Background="White" BorderThickness="0" 
+                                    SelectedDate="{x:Static sys:DateTime.Now}" />
+                        </Border>
+                    </StackPanel>
+
+                    <!-- Кнопки -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 20">
+                        <Button x:Name="cancelButton" Content="Отмена" Width="100" Height="40" Style="{StaticResource CancelButtonStyle}" Margin="1 0" Click="cancelButton_Click" />
+                        <Button x:Name="saveButton" Content="Сохранить" Width="100" Height="40" Background="#0078D7" Foreground="White" 
+                            Style="{StaticResource RoundedButtonStyle}" Margin="1 0" Click="saveButton_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

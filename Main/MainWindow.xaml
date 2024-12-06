@@ -6,7 +6,7 @@
         xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"            
         xmlns:local="clr-namespace:Main"    
         mc:Ignorable="d"
-        Title="Главный экран" Height="900" Width="1440" MinHeight="480" MinWidth="920" WindowStartupLocation="CenterScreen">
+        Title="Главный экран" Height="900" Width="1440" MinHeight="480" MinWidth="920" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
     <Grid>        
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -15,16 +15,14 @@
         
         <StackPanel Orientation="Vertical" Grid.Column="0">
             <Button x:Name="ChangeMainPageToPedometerPageButton" Margin="10" Content="Шагомер" Style="{StaticResource ButtonStyle}" Click="ChangeMainPageToPedometerPageButton_Click"/>
-            <Button x:Name="ChangeMainPageToPressurePageButton" Margin="10" Content="Давление" Style="{StaticResource ButtonStyle}" Click="ChangeMainPageToPressurePageButton_Click" />
+            <Button x:Name="ChangeMainPageToPressurePageButton" Margin="10" Content="Давление и пульс" Style="{StaticResource ButtonStyle}" Click="ChangeMainPageToPressurePageButton_Click" />
             <Button Margin="10" Content="Бла-бла" Style="{StaticResource ButtonStyle}"/>
-            <Button Margin="10" Content="Бла-Бла" Style="{StaticResource ButtonStyle}"/>
-            <Button x:Name="ChangeMainPageToEditPageButton" Margin="10" Content="Просмотр таблицы шагов" Style="{StaticResource ButtonStyle}" Click="ChangeMainPageToEditPageButton_Click"/>
-            
+            <Button x:Name="ChangeMainPageToSettingsPageButton"  Margin="10" Content="Настройки" Style="{StaticResource ButtonStyle}" Click="ChangeMainPageToSettingsPageButton_Click"/>
+            <Button x:Name="ChangeMainPageToEditPageButton" Margin="10" Content="Просмотр таблицы шагов" Style="{StaticResource ButtonStyle}" Click="ChangeMainPageToEditPageButton_Click"/>            
         </StackPanel>
         
         <Border Grid.Column="1" Margin="10">
             <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
         </Border>
-
     </Grid>
 </Window>
