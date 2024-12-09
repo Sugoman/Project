@@ -30,8 +30,8 @@ namespace Main.Pages.PedometerPage
             var chartValues = new ChartValues<int>(steps);
 
             var converter = new BrushConverter();
-            var brushFill = (Brush)converter.ConvertFromString("#A0CECB");
-            var brushStroke = (Brush)converter.ConvertFromString("#7DB1B1");
+            var brushFill = (Brush)converter.ConvertFromString("#BBBBBB");
+            var brushStroke = (Brush)converter.ConvertFromString("#5C607A");
 
             SeriesCollection = new SeriesCollection
             {

@@ -10,6 +10,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pictures\Абобик.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Pictures\icon.ico" />
   </ItemGroup>
 
@@ -23,11 +27,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Fonts\" />
+    <Page Include="App.xaml" />
   </ItemGroup>
 
   <ItemGroup>
-    <Page Include="App.xaml" />
+    <Resource Include="Pictures\Абобик.png" />
   </ItemGroup>
 
 </Project>

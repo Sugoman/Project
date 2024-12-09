@@ -127,3 +127,5 @@ C:\Users\Alexandr\source\repos\Проект\Project\Main\bin\Debug\net8.0-window
 C:\Users\Alexandr\source\repos\Проект\Project\Main\bin\Debug\net8.0-windows\runtimes\win7-x86\native\libuv.dll
 C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\Pages\SettingsPage\Settings.g.cs
 C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\Pages\SettingsPage\Settings.baml
+C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\Pages\HomePage\HomePage.g.cs
+C:\Users\Alexandr\source\repos\Проект\Project\Main\obj\Debug\net8.0-windows\Pages\HomePage\HomePage.baml

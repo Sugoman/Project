@@ -23,13 +23,15 @@
             </lvc:CartesianChart.AxisX>
         </lvc:CartesianChart>
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
-        <TextBlock Text="Начало" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <DatePicker x:Name="StartDatePicker" Margin="15 2 15 15" VerticalAlignment="Center" SelectedDate="{Binding SelectedStep.Date, Mode=TwoWay}" DisplayDateStart="5/20/2024" DisplayDateEnd="11/26/2024" SelectedDateChanged="StartDatePicker_SelectedDateChanged">
-                
-            </DatePicker>
-        <TextBlock Text="Конец" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
-            <DatePicker x:Name="EndDatePicker" Margin="15 2 15 15" VerticalAlignment="Center" SelectedDate="{Binding SelectedStep.Date, Mode=TwoWay}" DisplayDateStart="5/20/2024" DisplayDateEnd="11/26/2024" SelectedDateChanged="EndDatePicker_SelectedDateChanged"/>
+            <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center">
+        <TextBlock Text="От" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="DemiBold"/>
+            <DatePicker x:Name="StartDatePicker" Margin="15 2 15 15" VerticalAlignment="Center" SelectedDate="{Binding SelectedStep.Date, Mode=TwoWay}" DisplayDateStart="5/20/2024" DisplayDateEnd="11/26/2024" SelectedDateChanged="StartDatePicker_SelectedDateChanged"/>
 
+        </StackPanel>
+            <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center">
+                <TextBlock Text="До" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="DemiBold"/>
+                <DatePicker x:Name="EndDatePicker" Margin="15 2 15 15" VerticalAlignment="Center" SelectedDate="{Binding SelectedStep.Date, Mode=TwoWay}" DisplayDateStart="5/20/2024" DisplayDateEnd="11/26/2024" SelectedDateChanged="EndDatePicker_SelectedDateChanged"/>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Page>

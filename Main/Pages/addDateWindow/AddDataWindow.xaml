@@ -11,20 +11,19 @@
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
 </Window.Resources>
     <Grid>
-        <!-- Основной фон и скругленные края -->
-        <Border Background="White" CornerRadius="15" Padding="20" BorderBrush="#CCCCCC" BorderThickness="1">
+        <Border Background="#272B2F" Padding="20" BorderBrush="#CCCCCC" BorderThickness="1">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
                 <TextBlock Margin="30 0 0 -150" VerticalAlignment="Center" Foreground="#b0b9c6" IsHitTestVisible="False"
-           Panel.ZIndex="2" Text="120/70" Visibility="{Binding ElementName=textBoxPressure,Path=Text.IsEmpty,Converter={StaticResource BoolToVis}}"/>
+           Panel.ZIndex="2" Text="120/80" Visibility="{Binding ElementName=textBoxPressure,Path=Text.IsEmpty,Converter={StaticResource BoolToVis}}"/>
 
                 <TextBlock Margin="30 0 0 -270" VerticalAlignment="Center" Foreground="#b0b9c6" IsHitTestVisible="False"
 Panel.ZIndex="2" Text="60" Visibility="{Binding ElementName=PulseTextBox,Path=Text.IsEmpty,Converter={StaticResource BoolToVis}}"/>
                 <!-- Заголовок -->
-                <TextBlock Text="Добавить данные" FontSize="18" FontWeight="Bold" Foreground="#333333" 
+                <TextBlock Text="Добавить данные" FontSize="18" FontWeight="Bold" Foreground="White" 
                        HorizontalAlignment="Center" Margin="0,0,0,20" />
 
                 <!-- Форма -->
@@ -49,7 +48,7 @@ Panel.ZIndex="2" Text="60" Visibility="{Binding ElementName=PulseTextBox,Path=Te
                     <StackPanel Orientation="Vertical">
                         <TextBlock Text="Дата:" FontSize="14" Foreground="#555555" />
                         <Border CornerRadius="4" BorderBrush="#AAAAAA" BorderThickness="1">
-                            <DatePicker x:Name="DataDatePicker" Height="40" Padding="10" Background="White" BorderThickness="0" 
+                            <DatePicker x:Name="DataDatePicker" Height="40" Padding="10" Background="Maroon" BorderThickness="0" 
                                     SelectedDate="{x:Static sys:DateTime.Now}" />
                         </Border>
                     </StackPanel>

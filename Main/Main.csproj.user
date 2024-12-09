@@ -13,6 +13,9 @@
     <Compile Update="Pages\EditSteps\EditingSteps.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\HomePage\HomePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\PedometerPage\Pedometer.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -28,6 +31,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\EditSteps\EditingSteps.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\HomePage\HomePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\PedometerPage\Pedometer.xaml">

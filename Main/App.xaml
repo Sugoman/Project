@@ -120,7 +120,7 @@
         </Style>
         <Style x:Key="DataGridCellStyle1" TargetType="{x:Type DataGridCell}">
             <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Foreground" Value="White"/>
             <Setter Property="FontSize" Value="20"/>
             <Setter Property="FontWeight" Value="DemiBold"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
@@ -139,7 +139,8 @@
         <Style x:Key="DataGridColumnHeaderStyle1" TargetType="{x:Type DataGridColumnHeader}">
             <Setter Property="VerticalContentAlignment" Value="Center"/>
             <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
             <Setter Property="Margin" Value="15 2"/>            
             <Setter Property="Template">
                 <Setter.Value>
@@ -156,8 +157,8 @@
             </Setter>
         </Style>
         <Style x:Key="DataGridRowStyle1" TargetType="{x:Type DataGridRow}">
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Background" Value="#272b2f"/>
+            <Setter Property="Foreground" Value="White"/>
             <Setter Property="Margin" Value="0 4 0 0"/>
             <Setter Property="SnapsToDevicePixels" Value="true"/>
             <Setter Property="Validation.ErrorTemplate" Value="{x:Null}"/>
@@ -210,9 +211,10 @@
             </Style.Triggers>
         </Style>
         <Style TargetType="Button" x:Key="ButtonStyle">
-            <Setter Property="FontFamily" Value="Arial"/>
-            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontSize" Value="16"/>
             <Setter Property="Foreground" Value="#333333"/>
+            <Setter Property="FontFamily" Value="Roboto Black"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
             <Setter Property="Background" Value="#E0E0E0"/>
             <Setter Property="BorderBrush" Value="#CCCCCC"/>
             <Setter Property="BorderThickness" Value="1"/>
@@ -379,10 +381,10 @@
                                      Text="{Binding Path=SelectedDate, RelativeSource={RelativeSource TemplatedParent}, StringFormat='dd/MM/yyyy'}"
                                      VerticalAlignment="Center" 
                                      Padding="5"
-                                     Background="White"
+                                     Background="Transparent"
                                      BorderBrush="LightGray"
                                      BorderThickness="0"
-                                     Foreground="Black"
+                                     Foreground="White"
                                      IsReadOnly="True" 
                                      Width="90"/>
 
@@ -513,6 +515,110 @@
             </Setter>
         </Style>
 
+        <Style TargetType="ListBoxItem">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border x:Name="ItemBorder"
+                        Background="Transparent"
+                        CornerRadius="8"
+                        Padding="10"
+                        Margin="5">
+                            <ContentPresenter x:Name="ContentPresenter"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      TextBlock.Foreground="Black" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <!-- Эффект наведения -->
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ItemBorder" Property="Background" Value="#E0E0E0" />
+                                <Setter TargetName="ItemBorder" Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect ShadowDepth="3" BlurRadius="5" Color="Gray" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <!-- Эффект выбора -->
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="ItemBorder" Property="Background" Value="#6200EE" />
+                                <Setter TargetName="ContentPresenter" Property="TextBlock.Foreground" Value="White" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
 
+        <!-- Стиль для ListBox -->
+        <Style TargetType="ListBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBox">
+                        <Border Background="#F5F5F5" CornerRadius="10" Padding="10">
+                            <ScrollViewer>
+                                <ItemsPresenter />
+                            </ScrollViewer>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="Padding" Value="10" />
+        </Style>
+
+        <Style x:Key="BtnStyle" TargetType="RadioButton">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0,5,0,0" />
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RadioButton">
+                        <Border x:Name="border" Height="50" Width="228" BorderThickness="0">
+                            <Border.Background>
+                                <SolidColorBrush x:Name="BorderBackground" Color="#272B2F" />
+                            </Border.Background>
+                            <Grid>
+                                <Border x:Name="Indicator" Height="35" Width="4" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFFFFF"
+                                Visibility="Collapsed" CornerRadius="2" />
+                                <ContentPresenter/>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Visibility" TargetName="Indicator" Value="Visible" />
+                            </Trigger>
+
+                            <EventTrigger RoutedEvent="Border.MouseEnter" SourceName="border">
+
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="BorderBackground" Storyboard.TargetProperty="Color" From="#272B2F" To="#3E434A" Duration="0:0:0.3" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="Border.MouseLeave"
+                                  SourceName="border">
+
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="BorderBackground" Storyboard.TargetProperty="Color" From="#3E434A" To="#272B2F" Duration="0:0:0.3" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter Property="Background" TargetName="border" Value="#212529"/>
+                                <Setter Property="Visibility" TargetName="Indicator" Value="Visible" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        
     </Application.Resources>
 </Application>

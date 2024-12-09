@@ -21,28 +21,20 @@
             <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
 
-        <Grid Width="400" HorizontalAlignment="Left" Grid.Row="2">
-            <TextBlock Margin="20 0" VerticalAlignment="Center" Foreground="#b0b9c6" IsHitTestVisible="False"
-                       Panel.ZIndex="1" Text="Поиск" Visibility="{Binding ElementName=searchTextBox,Path=Text.IsEmpty,Converter={StaticResource BoolToVis}}"/>
-            
-            <TextBox x:Name="searchTextBox" Style="{StaticResource searchTextBox}"/>
-            <Icon:PackIconMaterial Kind="Magnify" Width="15" Height="15" VerticalAlignment="Center"
-                                   Margin="0 0 15 0" Foreground="#b0b9c6" HorizontalAlignment="Right"/>
-
-        </Grid>
-        <TextBlock Text=" Показатели давления и пульса" Grid.Row="1" FontSize="32" FontWeight="SemiBold" Margin="0 20 0 0"
-                   HorizontalAlignment="Left" Foreground="#121518"/>
+       
+        <TextBlock Text=" Показатели давления и пульса" Grid.Row="1" FontSize="32" FontWeight="SemiBold" Margin="20"
+                   HorizontalAlignment="Left" Foreground="#FFFFFF"/>
         
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
             
-        <Button Style="{StaticResource addButton}"  x:Name="addDataButton" Click="addDataButton_Click">
+        <Button Style="{StaticResource addButton}"  x:Name="addDataButton" Click="addDataButton_Click" Margin="1">
             <StackPanel Orientation="Horizontal">
                 <Icon:PackIconMaterial Kind="Plus" VerticalAlignment="Center" Width="11" Height="11" Margin="0 1 8 0"/>
                 <TextBlock Text="Добавить данные"/>
             </StackPanel>
         </Button>
 
-        <Button Style="{StaticResource reloadButton}" Grid.Row="1" x:Name="reloadDataGridButton" Click="reloadDataGridButton_Click">
+            <Button Style="{StaticResource reloadButton}" Grid.Row="1" x:Name="reloadDataGridButton" Click="reloadDataGridButton_Click" Margin="1">
             <StackPanel Orientation="Horizontal">
                 <Icon:PackIconMaterial Kind="Reload" VerticalAlignment="Center" Width="11" Height="11"/>               
             </StackPanel>
@@ -51,17 +43,10 @@
 
         <Separator Height="1" Grid.Row="1" Background="#dae2ea" Margin="0 -1" VerticalAlignment="Bottom"/>
         
-        <TextBlock Text="Фильтр" Grid.Row="2" FontSize="18" FontWeight="SemiBold" Margin="0 0 215 0"
-                   Foreground="#121518" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-
-        <Grid Width="200" HorizontalAlignment="Right" Grid.Row="2" VerticalAlignment="Center">
-            <DatePicker />
-        </Grid>
         
-        <Separator Height="1" Grid.Row="2" Background="#dae2ea" Margin="0 -1" VerticalAlignment="Bottom"/>
 
 
-        <DataGrid Style="{StaticResource DataGridStyle1}" CellStyle="{StaticResource DataGridCellStyle1}" ColumnHeaderStyle="{StaticResource DataGridColumnHeaderStyle1}" RowStyle="{StaticResource DataGridRowStyle1}" Grid.Row="3" Margin="5" x:Name="pressureDataGrid">
+        <DataGrid Style="{StaticResource DataGridStyle1}" CellStyle="{StaticResource DataGridCellStyle1}" ColumnHeaderStyle="{StaticResource DataGridColumnHeaderStyle1}" RowStyle="{StaticResource DataGridRowStyle1}" Grid.Row="2" Grid.RowSpan="2" Margin="5" x:Name="pressureDataGrid">
             <DataGrid.Columns>
                 
                 
