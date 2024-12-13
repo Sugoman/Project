@@ -41,7 +41,7 @@ namespace Main.Pages.PedometerPage
                    Fill = brushFill,
                    Stroke = brushStroke,
                    Values = chartValues,
-                   LineSmoothness = 0,
+                   LineSmoothness = 1,
                 }
             };
             Labels = dates;

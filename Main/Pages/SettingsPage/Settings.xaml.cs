@@ -3,7 +3,6 @@ using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-using System.Windows.Media.Media3D;
 
 namespace Main.Pages.SettingsPage
 {
@@ -212,8 +211,7 @@ namespace Main.Pages.SettingsPage
                 }
                 else
                 {
-                    Abobik.Width = weight * Math.PI;
-                    MessageBox.Show(Abobik.Width.ToString());
+                    Abobik.Width = weight * Math.PI + 120;
                 }
 
             }
@@ -224,9 +222,3 @@ namespace Main.Pages.SettingsPage
         }
     }
 }
-
-
-
-/**/
-
-/**/

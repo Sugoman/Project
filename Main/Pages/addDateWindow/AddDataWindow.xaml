@@ -22,29 +22,21 @@
 
                 <TextBlock Margin="30 0 0 -270" VerticalAlignment="Center" Foreground="#b0b9c6" IsHitTestVisible="False"
 Panel.ZIndex="2" Text="60" Visibility="{Binding ElementName=PulseTextBox,Path=Text.IsEmpty,Converter={StaticResource BoolToVis}}"/>
-                <!-- Заголовок -->
                 <TextBlock Text="Добавить данные" FontSize="18" FontWeight="Bold" Foreground="White" 
                        HorizontalAlignment="Center" Margin="0,0,0,20" />
-
-                <!-- Форма -->
                 <StackPanel Grid.Row="1" Margin="15">
-                    <!-- Поле для давления -->
                     <StackPanel Orientation="Vertical">
                         <TextBlock Text="Давление (мм рт. ст.):" FontSize="14" Foreground="#555555" />
                         <Border CornerRadius="10" BorderBrush="#AAAAAA" BorderThickness="1">
-                            <TextBox x:Name="textBoxPressure" Height="40" Padding="10" Background="Transparent" BorderThickness="0" Style="{StaticResource textBoxStyle}" Foreground="Black"/>
+                            <TextBox x:Name="textBoxPressure" Height="40" Padding="10" Background="Transparent" BorderThickness="0" Style="{StaticResource textBoxStyle}" Foreground="White"/>
                         </Border>
                     </StackPanel>
-
-                    <!-- Поле для пульса -->
                     <StackPanel Orientation="Vertical">
                         <TextBlock Text="Пульс (уд./мин):" FontSize="14" Foreground="#555555" />
                         <Border CornerRadius="10" BorderBrush="#AAAAAA" BorderThickness="1">
-                            <TextBox x:Name="PulseTextBox" Height="40" Padding="10" Background="Transparent" BorderThickness="0" Foreground="Black"/>
+                            <TextBox x:Name="PulseTextBox" Height="40" Padding="10" Background="Transparent" BorderThickness="0" Foreground="White"/>
                         </Border>
                     </StackPanel>
-
-                    <!-- Поле для даты -->
                     <StackPanel Orientation="Vertical">
                         <TextBlock Text="Дата:" FontSize="14" Foreground="#555555" />
                         <Border CornerRadius="4" BorderBrush="#AAAAAA" BorderThickness="1">
@@ -52,8 +44,6 @@ Panel.ZIndex="2" Text="60" Visibility="{Binding ElementName=PulseTextBox,Path=Te
                                     SelectedDate="{x:Static sys:DateTime.Now}" />
                         </Border>
                     </StackPanel>
-
-                    <!-- Кнопки -->
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 20">
                         <Button x:Name="cancelButton" Content="Отмена" Width="100" Height="40" Style="{StaticResource CancelButtonStyle}" Margin="1 0" Click="cancelButton_Click" />
                         <Button x:Name="saveButton" Content="Сохранить" Width="100" Height="40" Background="#0078D7" Foreground="White" 
