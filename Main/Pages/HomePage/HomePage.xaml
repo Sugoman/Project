@@ -28,7 +28,7 @@
         </StackPanel>
         
         <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0 20 0 0">
-            <TextBlock Text="Средний показатель пульса за неделю: " FontSize="24" Foreground="White"/>
+            <TextBlock Text="Средний показатель давления за неделю: " FontSize="24" Foreground="White"/>
             <Icon:PackIconMaterial Kind="ArrowUp" Margin="0 5 10 0" Width="24" Height="24" Foreground="Red"/>
             <TextBlock x:Name="averageUpPressure" Foreground="White" FontSize="24"  Margin="0 0 10 0"/>
             <Icon:PackIconMaterial Kind="ArrowDown" Margin="0 5 10 0" Width="24" Height="24" Foreground="Red"/>

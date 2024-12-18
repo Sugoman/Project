@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ya0jLEq8cUc=",
+  "dgSpecHash": "evda6Gf64jc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexandr\\source\\repos\\Проект\\Project\\Main\\Main.csproj",
+  "projectFilePath": "C:\\Users\\Alexandr\\source\\repos\\Проект\\MainProject\\Main\\Main.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexandr\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
     "C:\\Users\\Alexandr\\.nuget\\packages\\epplus\\7.5.1\\epplus.7.5.1.nupkg.sha512",

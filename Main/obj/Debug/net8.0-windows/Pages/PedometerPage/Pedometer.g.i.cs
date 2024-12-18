@@ -78,7 +78,7 @@ namespace Main.Pages.PedometerPage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Main;component/pages/pedometerpage/pedometer.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Main;V1.0.0.0;component/pages/pedometerpage/pedometer.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\PedometerPage\Pedometer.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

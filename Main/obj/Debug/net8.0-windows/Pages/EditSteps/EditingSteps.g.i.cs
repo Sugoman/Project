@@ -61,7 +61,7 @@ namespace Main.Pages.EditSteps {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Main;component/pages/editsteps/editingsteps.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Main;V1.0.0.0;component/pages/editsteps/editingsteps.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\EditSteps\EditingSteps.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

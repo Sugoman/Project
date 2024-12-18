@@ -79,7 +79,7 @@ namespace Main.Pages.PressurePage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Main;component/pages/pressurepage/pressure.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Main;V1.0.0.0;component/pages/pressurepage/pressure.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\PressurePage\Pressure.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

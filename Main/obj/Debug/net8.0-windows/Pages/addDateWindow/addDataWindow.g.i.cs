@@ -93,7 +93,7 @@ namespace Main.Pages.AddDateWindow {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Main;component/pages/adddatewindow/adddatawindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Main;V1.0.0.0;component/pages/adddatewindow/adddatawindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\addDateWindow\AddDataWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
